@@ -34,6 +34,8 @@ El sitio consumía tres APIs desplegadas en AWS API Gateway (`/cars`, `/users`, 
 
 ## Ejecución
 
+Requiere **Node 20** (ver `.nvmrc`); Gatsby 5 no compila con versiones recientes de Node.
+
 ```bash
 npm install
 npm run develop   # http://localhost:8000

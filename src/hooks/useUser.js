@@ -60,7 +60,7 @@ const useUser = (tenant_id) => {
 
             if (response.data.statusCode === 200) {
                 setUser(response.data.body);
-                localStorage.setItem('user', JSON.stringify(response.data.body));
+                localStorage.setItem(`${ tenant_id }_user`, JSON.stringify(response.data.body));
             }
         } catch (error) {
             setUser(null);

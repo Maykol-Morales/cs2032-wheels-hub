@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "cs2032-wheels-hub",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Frontend multi-tenant para concesionarios de autos (CS2032 Cloud Computing, UTEC)",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -35,10 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/maykol-morales/cs2032-wheels-hub"
   },
   "devDependencies": {
     "@iconify/react": "^5.0.1",

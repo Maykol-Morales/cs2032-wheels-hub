@@ -26,8 +26,9 @@ const VehiclesTemplate = ({ params }) => {
         }
 
         if (!user) {
-            await navigate('/login')
             localStorage.setItem('redirect', `/vehicles/${ params['*'] }`);
+            await navigate('/login');
+            return;
         }
 
         await purchase(data.id, user, vehicle);
