@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maykol-morales/cs2032-wheels-hub"
+    "url": "https://github.com/Maykol-Morales/cs2032-wheels-hub"
   },
   "devDependencies": {
     "@iconify/react": "^5.0.1",
